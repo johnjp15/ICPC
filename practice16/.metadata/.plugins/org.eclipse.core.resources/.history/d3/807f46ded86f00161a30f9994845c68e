@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class ProblemA {
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		int[] arr = {};
+		
+		int caseNum = 1;
+		
+		while(sc.hasNext())
+		{
+			int n = sc.nextInt();
+			
+		}
+	}
+
+}

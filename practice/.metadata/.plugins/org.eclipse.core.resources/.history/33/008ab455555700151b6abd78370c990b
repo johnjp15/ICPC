@@ -1,0 +1,46 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ProblemB {
+	public static void main(String[] args)	{
+		Scanner sc = new Scanner(System.in);
+		while(true){
+			ArrayList<Integer> reviews = new ArrayList<Integer>();
+			String inputs[] = sc.nextLine().split(" ");
+			
+			if (inputs[0]=="0"&&inputs[1]=="0") break;
+			
+			int n = Integer.parseInt(inputs[0]);
+			int m = Integer.parseInt(inputs[1]);
+			for (int x = 0; x < n; x++) {
+				inputs = sc.nextLine().split(" ");
+				int j = Integer.parseInt(inputs[0]);
+				int c = Integer.parseInt(inputs[1]);
+				for (int y = 0; y < j; y++)
+					reviews.add(c);
+			}
+			for (int z = 0; z < m; z++) {
+				inputs = sc.nextLine().split(" ");
+				int k = Integer.parseInt(inputs[0]);
+				int d = Integer.parseInt(inputs[1]);
+				for (int w = 0; w < k; w++) {
+					int d_copy = d;
+					while (d_copy!=0){
+						if (reviews.size()>0) {
+							int front = reviews.remove(0);
+							front--;
+							if (front > 0)
+								reviews.add(front);
+						}
+						d_copy--;
+					}
+				}
+			}
+			if (reviews.size() <= 0)
+				System.out.println(1);
+			else
+				System.out.println(0);
+		}
+		sc.close();
+	}
+}

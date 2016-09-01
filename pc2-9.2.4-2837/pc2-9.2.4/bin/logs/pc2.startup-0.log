@@ -1,0 +1,238 @@
+150909 194048.846|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150909 194048.848|INFO|main|info|
+150909 194048.851|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150909 194048.851|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150909 194048.880|INFO|main|startLog|Process id is 3676@jjp_rb15fhd
+150909 194048.880|INFO|main|start|Starting ConnectionManager...
+150909 194049.065|INFO|main|start|Started ConnectionManager
+150909 194049.066|SEVERE|main|fatalError|Cannot start PC^2, pc2v9.ini file not found in C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150909 194049.066|INFO|main|fatalError|PC^2 halted
+150909 194104.756|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150909 194104.757|INFO|main|info|
+150909 194104.760|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150909 194104.761|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150909 194104.768|INFO|main|startLog|Process id is 7804@jjp_rb15fhd
+150909 194104.768|INFO|main|start|Starting ConnectionManager...
+150909 194104.857|INFO|main|start|Started ConnectionManager
+150909 194104.860|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.2.4-2837/pc2-9.2.4/bin/pc2v9.ini
+150909 194104.860|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+150909 194104.860|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+150909 194104.861|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+150909 194104.944|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=52197]-1260701866630772579)
+150909 194105.032|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=52197]-1260701866630772579 key is com.sun.crypto.provider.DESKey@fffe7b97
+150909 194105.032|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150909 194105.033|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    73f60866 c2bac8ba 41d6e446 05b9111f a4445469 1d534a6b 78917a95 25846df9
+    e90284d5 8586b9d1 9228cf2c e3deb38d d195fa94 fe1fd216 a372997d 036b5dff
+    0736490b 565c1d8e e8ac30a7 c346c00a 3875044e a870e4be d711bc38 13c6d626
+    7f948274 8a3132f1 b9d1bbcf e6638c70 b0bdf697 86f9c60c abdcfbb1 d951f9f3
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150909 194105.033|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@4e7d81
+150909 200723.295|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150909 200723.296|INFO|main|info|
+150909 200723.301|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150909 200723.301|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150909 200723.313|INFO|main|startLog|Process id is 12688@jjp_rb15fhd
+150909 200723.313|INFO|main|start|Starting ConnectionManager...
+150909 200723.450|INFO|main|start|Started ConnectionManager
+150909 200723.452|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.2.4-2837/pc2-9.2.4/bin/pc2v9.ini
+150909 200723.453|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+150909 200723.453|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+150909 200723.453|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+150909 200723.529|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=52260]--4239083313384083421)
+150909 200723.591|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=52260]--4239083313384083421 key is com.sun.crypto.provider.DESKey@1808c
+150909 200723.592|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150909 200723.592|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    eb65cb6f b07dba95 39af616e a823b24b 51f88a94 e8f8b9b7 77d32245 45c986a3
+    b1531c7a 5b4e2a98 b20c68c7 85856b3b 467bc458 614c2683 236b1db4 7a4f475c
+    a0d15a36 22c0db45 41240c30 0c2e8c8b b6911497 62fdd58f d09ff7ae 8fa04462
+    8f86a2bd 45376799 5e929d29 cbc920a3 2d0e4b5b a02681cf 11df031c 13c991c3
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150909 200723.592|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@fc7e2b
+150909 223614.288|INFO|Thread-1|receive|SocketException in receive for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=52260]--4239083313384083421
+|java.net.SocketException: Software caused connection abort: recv failed
+|    at java.net.SocketInputStream.socketRead0 (Unknown Source)
+|    at java.net.SocketInputStream.socketRead (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150909 223614.290|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Software caused connection abort: recv failed
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150909 223614.290|INFO|Thread-1|receive|SocketException in receive for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=52260]--4239083313384083421
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150909 223614.291|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150916 202158.069|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150916 202158.071|INFO|main|info|
+150916 202158.081|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150916 202158.082|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150916 202158.115|INFO|main|startLog|Process id is 1100084@jjp_rb15fhd
+150916 202158.115|INFO|main|start|Starting ConnectionManager...
+150916 202158.338|INFO|main|start|Started ConnectionManager
+150916 202158.343|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.2.4-2837/pc2-9.2.4/bin/pc2v9.ini
+150916 202158.343|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+150916 202158.344|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+150916 202158.344|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+150916 202201.414|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=60941]-4609610802968137403)
+150916 202201.596|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=60941]-4609610802968137403 key is com.sun.crypto.provider.DESKey@fffe7a2b
+150916 202201.596|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150916 202201.597|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    22c9ba9b 036832e4 b3bcbeed ee1d719b ff0c5e05 c3d73830 06feed35 20a91f8c
+    ba220e6f 6e6c0b03 f8787d9a 17879c2e f09b1a42 548faa8f b874f85d be3cbdaf
+    80cadf43 ed053297 ca88ec34 d408ccf7 8de02213 4ef441ad 597c89ca d1c49d3d
+    6fc7cecd c2ebb7d0 dd732b36 69d82d2f 725bbd2c 665e303f b41c49bf d6c8e1ff
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150916 202201.598|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@28ddf7
+150923 195214.959|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150923 195214.961|INFO|main|info|
+150923 195214.965|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150923 195214.966|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150923 195214.987|INFO|main|startLog|Process id is 9444@jjp_rb15fhd
+150923 195214.987|INFO|main|start|Starting ConnectionManager...
+150923 195215.078|INFO|main|start|Started ConnectionManager
+150923 195215.081|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.2.4-2837/pc2-9.2.4/bin/pc2v9.ini
+150923 195215.082|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+150923 195215.082|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+150923 195215.082|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+150923 195215.158|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=49703]-3292410471683749665)
+150923 195215.219|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=49703]-3292410471683749665 key is com.sun.crypto.provider.DESKey@1848a
+150923 195215.219|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150923 195215.220|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    ad3f2e9e 2be71876 eccb3580 440ab0b3 b0cc6482 ad7392aa 73a41795 bf8ae4e4
+    1a697330 05296ea1 91b3cbc6 9f2fe7e8 dc3324b6 d994907d d147c068 66099086
+    4d9af591 a81e9386 b0fc3401 e8e40be3 bcc2f62c cabe7743 099ccf8e bb9a555d
+    3fb2f293 46aa7eff c46bb009 edbf70ef 9e99100c f99ca831 a97c9528 8071a415
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150923 195215.220|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@4e7d81
+150923 220431.215|INFO|Thread-1|receive|EOFException in receive for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=49703]-3292410471683749665
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150923 220431.216|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:158)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150923 220431.216|FINER|Thread-1|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:158)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+150930 194144.119|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150930 194144.125|INFO|main|info|
+150930 194144.143|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150930 194144.144|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150930 194144.216|INFO|main|startLog|Process id is 126736@jjp_rb15fhd
+150930 194144.217|INFO|main|start|Starting ConnectionManager...
+150930 194144.686|INFO|main|start|Started ConnectionManager
+150930 194144.695|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.2.4-2837/pc2-9.2.4/bin/pc2v9.ini
+150930 194144.695|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+150930 194144.696|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+150930 194144.697|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+150930 194145.470|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=49382]-7652318730979039846)
+150930 194145.593|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=49382]-7652318730979039846 key is com.sun.crypto.provider.DESKey@18405
+150930 194145.594|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+150930 194145.595|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    30c91dc0 b47b1a27 ed918875 637f5587 17a29dcc bc637194 0df02376 0e80647a
+    2f5a6d84 8b4579f6 f252797b a23a8001 020063ae d45e3755 c3d00fb3 a86806d6
+    1d604be0 f2096977 7df3a283 6e2cd96d 2784e515 f27a8b37 0f08464f e65d4c5b
+    67e20394 c911681d f3bf3b8c a866ac26 f43524ab 710b2b13 d71604df acb9e026
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+150930 194145.595|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1b0a3a1
+151007 193848.233|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+151007 193848.235|INFO|main|info|
+151007 193848.248|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+151007 193848.248|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+151007 193848.269|INFO|main|startLog|Process id is 146664@jjp_rb15fhd
+151007 193848.269|INFO|main|start|Starting ConnectionManager...
+151007 193848.626|INFO|main|start|Started ConnectionManager
+151007 193848.634|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.2.4-2837/pc2-9.2.4/bin/pc2v9.ini
+151007 193848.635|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+151007 193848.635|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+151007 193848.636|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+151007 193848.738|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=59188]-4140505469158811196)
+151007 193848.868|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=59188]-4140505469158811196 key is com.sun.crypto.provider.DESKey@1868e
+151007 193848.869|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+151007 193848.870|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    cec6888f c24d452a 3b251ad1 30f0673c e998d84e 6484c287 4913ed85 080612cb
+    d216ee4d f27a8809 2966f2de d3e15e7c 657965d2 db7acb9f 9a0d93a4 5d94272b
+    eb26854a c6967bdc fb789d0c b941d8f9 99ddbea2 1dd9362d 5ee424fe c9a23255
+    8b290f3d 992f4364 52e400de 85c34ba2 6a11b268 3ed0b57b d4d608bd d8cd8134
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+151007 193848.870|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@4e7d81

@@ -1,0 +1,297 @@
+150909 200727.246|CONFIG|Thread-5|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin\logs directory.
+150909 200727.247|INFO|Thread-5|info|
+150909 200727.247|INFO|Thread-5|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.8.0_60 build 2837 Windows 10 10.0 (x86) 
+150909 200727.247|INFO|Thread-5|info|Login: team36 (aka team36)
+150909 200727.247|INFO|Thread-5|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.2.4-2837\pc2-9.2.4\bin
+150909 200727.247|INFO|Thread-5|startLog|Process id is 12688@jjp_rb15fhd
+150909 200727.248|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+150909 200727.256|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+150909 200727.407|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+150909 200727.407|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #153 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 200727.408|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #153 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 201126.388|INFO|Thread-6|info| receiveObject(S) start got Packet[ADD_SETTING] #187 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201126.388|INFO|Thread-6|dumpPacket|Packet ADD_SETTING (Seq #187 ) recieveObject
+150909 201126.389|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201126.389|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+150909 201126.389|INFO|Thread-6|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Java
+150909 201126.389|INFO|Thread-6|info|handlePacket start Packet[ADD_SETTING] #187 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201126.389|INFO|Thread-6|dumpPacket|Packet ADD_SETTING (Seq #187 ) handlePacket
+150909 201126.390|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201126.390|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+150909 201126.390|INFO|Thread-6|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Java
+150909 201126.391|INFO|Thread-6|info|handlePacket end Packet[ADD_SETTING] #187 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201126.391|INFO|Thread-6|info| receiveObject(S) end   got Packet[ADD_SETTING] #187 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201136.628|INFO|Thread-7|info| receiveObject(S) start got Packet[ADD_SETTING] #192 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201136.628|INFO|Thread-7|dumpPacket|Packet ADD_SETTING (Seq #192 ) recieveObject
+150909 201136.629|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201136.629|INFO|Thread-7|dumpPacket|    To: SERVER0 @ site 0
+150909 201136.630|INFO|Thread-7|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+150909 201136.630|INFO|Thread-7|info|handlePacket start Packet[ADD_SETTING] #192 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201136.631|INFO|Thread-7|dumpPacket|Packet ADD_SETTING (Seq #192 ) handlePacket
+150909 201136.631|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201136.631|INFO|Thread-7|dumpPacket|    To: SERVER0 @ site 0
+150909 201136.632|INFO|Thread-7|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+150909 201136.632|INFO|Thread-7|info|handlePacket end Packet[ADD_SETTING] #192 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201136.633|INFO|Thread-7|info| receiveObject(S) end   got Packet[ADD_SETTING] #192 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201550.815|INFO|Thread-8|info| receiveObject(S) start got Packet[ADD_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201550.816|INFO|Thread-8|dumpPacket|Packet ADD_SETTING (Seq #217 ) recieveObject
+150909 201550.816|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201550.817|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+150909 201550.817|INFO|Thread-8|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem A: Fifty Coats of Gray
+150909 201550.818|INFO|Thread-8|info|handlePacket start Packet[ADD_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201550.818|INFO|Thread-8|dumpPacket|Packet ADD_SETTING (Seq #217 ) handlePacket
+150909 201550.819|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201550.819|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+150909 201550.819|INFO|Thread-8|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem A: Fifty Coats of Gray
+150909 201550.824|INFO|Thread-8|info|handlePacket end Packet[ADD_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201550.824|INFO|Thread-8|info| receiveObject(S) end   got Packet[ADD_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201806.428|INFO|Thread-9|info| receiveObject(S) start got Packet[ADD_SETTING] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201806.429|INFO|Thread-9|dumpPacket|Packet ADD_SETTING (Seq #223 ) recieveObject
+150909 201806.429|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201806.429|INFO|Thread-9|dumpPacket|    To: SERVER0 @ site 0
+150909 201806.429|INFO|Thread-9|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem B: Component Testing
+150909 201806.429|INFO|Thread-9|info|handlePacket start Packet[ADD_SETTING] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201806.430|INFO|Thread-9|dumpPacket|Packet ADD_SETTING (Seq #223 ) handlePacket
+150909 201806.430|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201806.430|INFO|Thread-9|dumpPacket|    To: SERVER0 @ site 0
+150909 201806.431|INFO|Thread-9|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem B: Component Testing
+150909 201806.431|INFO|Thread-9|info|handlePacket end Packet[ADD_SETTING] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201806.431|INFO|Thread-9|info| receiveObject(S) end   got Packet[ADD_SETTING] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201837.553|INFO|Thread-10|info| receiveObject(S) start got Packet[ADD_SETTING] #232 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201837.554|INFO|Thread-10|dumpPacket|Packet ADD_SETTING (Seq #232 ) recieveObject
+150909 201837.554|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201837.554|INFO|Thread-10|dumpPacket|    To: SERVER0 @ site 0
+150909 201837.554|INFO|Thread-10|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem C: Collision Detection
+150909 201837.554|INFO|Thread-10|info|handlePacket start Packet[ADD_SETTING] #232 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201837.554|INFO|Thread-10|dumpPacket|Packet ADD_SETTING (Seq #232 ) handlePacket
+150909 201837.554|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 201837.554|INFO|Thread-10|dumpPacket|    To: SERVER0 @ site 0
+150909 201837.555|INFO|Thread-10|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem C: Collision Detection
+150909 201837.555|INFO|Thread-10|info|handlePacket end Packet[ADD_SETTING] #232 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 201837.555|INFO|Thread-10|info| receiveObject(S) end   got Packet[ADD_SETTING] #232 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202123.634|INFO|Thread-11|info| receiveObject(S) start got Packet[ADD_SETTING] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202123.635|INFO|Thread-11|dumpPacket|Packet ADD_SETTING (Seq #242 ) recieveObject
+150909 202123.635|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202123.635|INFO|Thread-11|dumpPacket|    To: SERVER0 @ site 0
+150909 202123.636|INFO|Thread-11|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem D: Dueling Philosophers
+150909 202123.636|INFO|Thread-11|info|handlePacket start Packet[ADD_SETTING] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202123.637|INFO|Thread-11|dumpPacket|Packet ADD_SETTING (Seq #242 ) handlePacket
+150909 202123.637|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202123.637|INFO|Thread-11|dumpPacket|    To: SERVER0 @ site 0
+150909 202123.638|INFO|Thread-11|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem D: Dueling Philosophers
+150909 202123.638|INFO|Thread-11|info|handlePacket end Packet[ADD_SETTING] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202123.639|INFO|Thread-11|info| receiveObject(S) end   got Packet[ADD_SETTING] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202319.420|INFO|Thread-12|info| receiveObject(S) start got Packet[ADD_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202319.421|INFO|Thread-12|dumpPacket|Packet ADD_SETTING (Seq #250 ) recieveObject
+150909 202319.421|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202319.422|INFO|Thread-12|dumpPacket|    To: SERVER0 @ site 0
+150909 202319.422|INFO|Thread-12|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem E: Party Games
+150909 202319.422|INFO|Thread-12|info|handlePacket start Packet[ADD_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202319.423|INFO|Thread-12|dumpPacket|Packet ADD_SETTING (Seq #250 ) handlePacket
+150909 202319.423|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202319.423|INFO|Thread-12|dumpPacket|    To: SERVER0 @ site 0
+150909 202319.423|INFO|Thread-12|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem E: Party Games
+150909 202319.424|INFO|Thread-12|info|handlePacket end Packet[ADD_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202319.424|INFO|Thread-12|info| receiveObject(S) end   got Packet[ADD_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202401.191|INFO|Thread-13|info| receiveObject(S) start got Packet[ADD_SETTING] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202401.192|INFO|Thread-13|dumpPacket|Packet ADD_SETTING (Seq #254 ) recieveObject
+150909 202401.192|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202401.193|INFO|Thread-13|dumpPacket|    To: SERVER0 @ site 0
+150909 202401.193|INFO|Thread-13|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem F: Funhouse
+150909 202401.193|INFO|Thread-13|info|handlePacket start Packet[ADD_SETTING] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202401.194|INFO|Thread-13|dumpPacket|Packet ADD_SETTING (Seq #254 ) handlePacket
+150909 202401.194|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202401.194|INFO|Thread-13|dumpPacket|    To: SERVER0 @ site 0
+150909 202401.195|INFO|Thread-13|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem F: Funhouse
+150909 202401.195|INFO|Thread-13|info|handlePacket end Packet[ADD_SETTING] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202401.195|INFO|Thread-13|info| receiveObject(S) end   got Packet[ADD_SETTING] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202428.852|INFO|Thread-14|info| receiveObject(S) start got Packet[ADD_SETTING] #256 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202428.853|INFO|Thread-14|dumpPacket|Packet ADD_SETTING (Seq #256 ) recieveObject
+150909 202428.853|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202428.854|INFO|Thread-14|dumpPacket|    To: SERVER0 @ site 0
+150909 202428.854|INFO|Thread-14|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem G: Terribly Grimm Problem
+150909 202428.854|INFO|Thread-14|info|handlePacket start Packet[ADD_SETTING] #256 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202428.855|INFO|Thread-14|dumpPacket|Packet ADD_SETTING (Seq #256 ) handlePacket
+150909 202428.855|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202428.855|INFO|Thread-14|dumpPacket|    To: SERVER0 @ site 0
+150909 202428.856|INFO|Thread-14|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem G: Terribly Grimm Problem
+150909 202428.856|INFO|Thread-14|info|handlePacket end Packet[ADD_SETTING] #256 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202428.856|INFO|Thread-14|info| receiveObject(S) end   got Packet[ADD_SETTING] #256 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202455.608|INFO|Thread-15|info| receiveObject(S) start got Packet[ADD_SETTING] #262 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202455.609|INFO|Thread-15|dumpPacket|Packet ADD_SETTING (Seq #262 ) recieveObject
+150909 202455.609|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202455.609|INFO|Thread-15|dumpPacket|    To: SERVER0 @ site 0
+150909 202455.609|INFO|Thread-15|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem H: Tsunami
+150909 202455.609|INFO|Thread-15|info|handlePacket start Packet[ADD_SETTING] #262 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202455.610|INFO|Thread-15|dumpPacket|Packet ADD_SETTING (Seq #262 ) handlePacket
+150909 202455.610|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 202455.610|INFO|Thread-15|dumpPacket|    To: SERVER0 @ site 0
+150909 202455.611|INFO|Thread-15|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem H: Tsunami
+150909 202455.611|INFO|Thread-15|info|handlePacket end Packet[ADD_SETTING] #262 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 202455.611|INFO|Thread-15|info| receiveObject(S) end   got Packet[ADD_SETTING] #262 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 203457.397|INFO|Thread-16|info| receiveObject(S) start got Packet[UPDATE_SETTING] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 203457.397|INFO|Thread-16|dumpPacket|Packet UPDATE_SETTING (Seq #457 ) recieveObject
+150909 203457.398|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 203457.398|INFO|Thread-16|dumpPacket|    To: SERVER0 @ site 0
+150909 203457.398|INFO|Thread-16|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem A: Fifty Coats of Gray
+150909 203457.399|INFO|Thread-16|info|handlePacket start Packet[UPDATE_SETTING] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 203457.399|INFO|Thread-16|dumpPacket|Packet UPDATE_SETTING (Seq #457 ) handlePacket
+150909 203457.399|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 203457.400|INFO|Thread-16|dumpPacket|    To: SERVER0 @ site 0
+150909 203457.400|INFO|Thread-16|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem A: Fifty Coats of Gray
+150909 203457.405|INFO|Thread-16|info|handlePacket end Packet[UPDATE_SETTING] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 203457.405|INFO|Thread-16|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 204910.710|INFO|Thread-17|info| receiveObject(S) start got Packet[UPDATE_SETTING] #667 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 204910.711|INFO|Thread-17|dumpPacket|Packet UPDATE_SETTING (Seq #667 ) recieveObject
+150909 204910.711|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 204910.712|INFO|Thread-17|dumpPacket|    To: TEAM36 @ site 1
+150909 204910.712|INFO|Thread-17|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account team36
+150909 204910.712|INFO|Thread-17|info|handlePacket start Packet[UPDATE_SETTING] #667 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 204910.713|INFO|Thread-17|dumpPacket|Packet UPDATE_SETTING (Seq #667 ) handlePacket
+150909 204910.713|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 204910.714|INFO|Thread-17|dumpPacket|    To: TEAM36 @ site 1
+150909 204910.714|INFO|Thread-17|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account team36
+150909 204910.719|INFO|Thread-17|info|handlePacket end Packet[UPDATE_SETTING] #667 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 204910.720|INFO|Thread-17|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #667 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 205044.058|INFO|Thread-18|info| receiveObject(S) start got Packet[UPDATE_SETTING] #694 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205044.058|INFO|Thread-18|dumpPacket|Packet UPDATE_SETTING (Seq #694 ) recieveObject
+150909 205044.059|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 205044.059|INFO|Thread-18|dumpPacket|    To: SERVER0 @ site 0
+150909 205044.059|INFO|Thread-18|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Microsoft C++
+150909 205044.060|INFO|Thread-18|info|handlePacket start Packet[UPDATE_SETTING] #694 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205044.060|INFO|Thread-18|dumpPacket|Packet UPDATE_SETTING (Seq #694 ) handlePacket
+150909 205044.060|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 205044.061|INFO|Thread-18|dumpPacket|    To: SERVER0 @ site 0
+150909 205044.061|INFO|Thread-18|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Microsoft C++
+150909 205044.064|INFO|Thread-18|info|handlePacket end Packet[UPDATE_SETTING] #694 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205044.065|INFO|Thread-18|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #694 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205050.840|INFO|Thread-19|info| receiveObject(S) start got Packet[UPDATE_SETTING] #695 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205050.840|INFO|Thread-19|dumpPacket|Packet UPDATE_SETTING (Seq #695 ) recieveObject
+150909 205050.841|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 205050.841|INFO|Thread-19|dumpPacket|    To: SERVER0 @ site 0
+150909 205050.842|INFO|Thread-19|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+150909 205050.842|INFO|Thread-19|info|handlePacket start Packet[UPDATE_SETTING] #695 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205050.842|INFO|Thread-19|dumpPacket|Packet UPDATE_SETTING (Seq #695 ) handlePacket
+150909 205050.843|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 205050.843|INFO|Thread-19|dumpPacket|    To: SERVER0 @ site 0
+150909 205050.843|INFO|Thread-19|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++
+150909 205050.844|INFO|Thread-19|info|handlePacket end Packet[UPDATE_SETTING] #695 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 205050.844|INFO|Thread-19|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #695 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 213020.686|INFO|Thread-21|testRun|test run for A: Fifty Coats of Gray Java file: C:\Users\John\Dropbox\UVA\ICPC\practice\icpc1\src\ProblemA.java
+150909 213020.698|DEBUG|Thread-21|compileProgram|before substitution: javac {:mainfile}
+150909 213020.699|DEBUG|Thread-21|compileProgram|after  substitution: javac ProblemA.java
+150909 213020.718|CONFIG|Thread-21|runProgram|executing: 'javac ProblemA.java'
+150909 213020.721|CONFIG|Thread-21|runProgram|Note: exec failed in RunProgram Cannot run program "javac" (in directory "executesite1team36"): CreateProcess error=2, The system cannot find the file specified
+150909 213030.288|INFO|Thread-23|testRun|test run for A: Fifty Coats of Gray Java file: C:\Users\John\Dropbox\UVA\ICPC\practice\icpc1\src\ProblemA.java
+150909 213030.293|DEBUG|Thread-23|compileProgram|before substitution: javac {:mainfile}
+150909 213030.294|DEBUG|Thread-23|compileProgram|after  substitution: javac ProblemA.java
+150909 213030.307|CONFIG|Thread-23|runProgram|executing: 'javac ProblemA.java'
+150909 213030.309|CONFIG|Thread-23|runProgram|Note: exec failed in RunProgram Cannot run program "javac" (in directory "executesite1team36"): CreateProcess error=2, The system cannot find the file specified
+150909 213042.863|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A: Fifty Coats of Gray Java file: C:\Users\John\Dropbox\UVA\ICPC\practice\icpc1\src\ProblemA.java
+150909 213042.865|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM36 @ site 1 -> SERVER0 @ site 1
+150909 213042.865|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM36 @ site 1 -> SERVER0 @ site 1
+150909 213042.896|INFO|Thread-26|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1197 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 213042.897|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1197 ) recieveObject
+150909 213042.897|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 213042.897|INFO|Thread-26|dumpPacket|    To: TEAM36 @ site 1
+150909 213042.897|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 QUEUED_FOR_COMPUTER_JUDGEMENT5066127 ms from TEAM36 @ site 1 id Run--5935560598770915522
+150909 213042.897|INFO|Thread-26|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1197 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 213042.897|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1197 ) handlePacket
+150909 213042.897|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 213042.897|INFO|Thread-26|dumpPacket|    To: TEAM36 @ site 1
+150909 213042.897|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 QUEUED_FOR_COMPUTER_JUDGEMENT5066127 ms from TEAM36 @ site 1 id Run--5935560598770915522
+150909 213044.781|INFO|Thread-26|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1197 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 213118.316|INFO|Thread-27|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1211 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 213118.316|INFO|Thread-27|dumpPacket|Packet RUN_JUDGEMENT (Seq #1211 ) recieveObject
+150909 213118.316|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 213118.317|INFO|Thread-27|dumpPacket|    To: TEAM36 @ site 1
+150909 213118.317|INFO|Thread-27|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150909 213118.318|INFO|Thread-27|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by ADMINISTRATOR2 @ site 1 judgement Yes-1377046434419599005 id JudgementRecord--2714881320169502943
+150909 213118.318|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 JUDGED5066127 ms from TEAM36 @ site 1 id Run--5935560598770915522
+150909 213118.318|INFO|Thread-27|info|handlePacket start Packet[RUN_JUDGEMENT] #1211 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 213118.319|INFO|Thread-27|dumpPacket|Packet RUN_JUDGEMENT (Seq #1211 ) handlePacket
+150909 213118.319|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 213118.319|INFO|Thread-27|dumpPacket|    To: TEAM36 @ site 1
+150909 213118.319|INFO|Thread-27|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150909 213118.320|INFO|Thread-27|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by ADMINISTRATOR2 @ site 1 judgement Yes-1377046434419599005 id JudgementRecord--2714881320169502943
+150909 213118.320|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 JUDGED5066127 ms from TEAM36 @ site 1 id Run--5935560598770915522
+150909 213121.393|INFO|Thread-27|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1211 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 215423.329|INFO|Thread-28|testRun|test run for B: Component Testing Java file: C:\Users\John\Dropbox\UVA\ICPC\practice\icpc1\src\ProblemB.java
+150909 215423.334|DEBUG|Thread-28|compileProgram|before substitution: javac {:mainfile}
+150909 215423.335|DEBUG|Thread-28|compileProgram|after  substitution: javac ProblemB.java
+150909 215423.349|CONFIG|Thread-28|runProgram|executing: 'javac ProblemB.java'
+150909 215423.350|CONFIG|Thread-28|runProgram|Note: exec failed in RunProgram Cannot run program "javac" (in directory "executesite1team36"): CreateProcess error=2, The system cannot find the file specified
+150909 215426.923|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for B: Component Testing Java file: C:\Users\John\Dropbox\UVA\ICPC\practice\icpc1\src\ProblemB.java
+150909 215426.924|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM36 @ site 1 -> SERVER0 @ site 1
+150909 215426.924|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM36 @ site 1 -> SERVER0 @ site 1
+150909 215426.955|INFO|Thread-31|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1469 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 215426.955|INFO|Thread-31|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1469 ) recieveObject
+150909 215426.955|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 215426.955|INFO|Thread-31|dumpPacket|    To: TEAM36 @ site 1
+150909 215426.956|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 117 QUEUED_FOR_COMPUTER_JUDGEMENT6490197 ms from TEAM36 @ site 1 id Run-1350749996737227813
+150909 215426.956|INFO|Thread-31|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1469 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 215426.956|INFO|Thread-31|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1469 ) handlePacket
+150909 215426.956|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 215426.956|INFO|Thread-31|dumpPacket|    To: TEAM36 @ site 1
+150909 215426.956|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 117 QUEUED_FOR_COMPUTER_JUDGEMENT6490197 ms from TEAM36 @ site 1 id Run-1350749996737227813
+150909 215430.126|INFO|Thread-31|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1469 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 215827.486|INFO|Thread-32|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1538 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 215827.487|INFO|Thread-32|dumpPacket|Packet RUN_JUDGEMENT (Seq #1538 ) recieveObject
+150909 215827.487|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 215827.488|INFO|Thread-32|dumpPacket|    To: TEAM36 @ site 1
+150909 215827.488|INFO|Thread-32|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150909 215827.489|INFO|Thread-32|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR3 @ site 1 judgement No - Time-limit Exceeded--7215321311261324777 id JudgementRecord-8557940467469312693
+150909 215827.489|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 117 JUDGED6490197 ms from TEAM36 @ site 1 id Run-1350749996737227813
+150909 215827.490|INFO|Thread-32|info|handlePacket start Packet[RUN_JUDGEMENT] #1538 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 215827.491|INFO|Thread-32|dumpPacket|Packet RUN_JUDGEMENT (Seq #1538 ) handlePacket
+150909 215827.491|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 215827.491|INFO|Thread-32|dumpPacket|    To: TEAM36 @ site 1
+150909 215827.492|INFO|Thread-32|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150909 215827.492|INFO|Thread-32|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR3 @ site 1 judgement No - Time-limit Exceeded--7215321311261324777 id JudgementRecord-8557940467469312693
+150909 215827.493|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 117 JUDGED6490197 ms from TEAM36 @ site 1 id Run-1350749996737227813
+150909 215926.719|INFO|Thread-32|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1538 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 220249.818|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for B: Component Testing Java file: C:\Users\John\Dropbox\UVA\ICPC\practice\icpc1\src\ProblemB.java
+150909 220249.819|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM36 @ site 1 -> SERVER0 @ site 1
+150909 220249.819|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM36 @ site 1 -> SERVER0 @ site 1
+150909 220249.854|INFO|Thread-34|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1666 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 220249.854|INFO|Thread-34|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1666 ) recieveObject
+150909 220249.854|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 220249.854|INFO|Thread-34|dumpPacket|    To: TEAM36 @ site 1
+150909 220249.854|INFO|Thread-34|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 138 QUEUED_FOR_COMPUTER_JUDGEMENT6993099 ms from TEAM36 @ site 1 id Run-1435241350496999951
+150909 220249.855|INFO|Thread-34|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1666 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 220249.855|INFO|Thread-34|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1666 ) handlePacket
+150909 220249.855|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 220249.855|INFO|Thread-34|dumpPacket|    To: TEAM36 @ site 1
+150909 220249.855|INFO|Thread-34|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 138 QUEUED_FOR_COMPUTER_JUDGEMENT6993099 ms from TEAM36 @ site 1 id Run-1435241350496999951
+150909 220258.517|INFO|Thread-34|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1666 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 220624.156|INFO|Thread-35|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #1774 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 220624.156|INFO|Thread-35|dumpPacket|Packet CLOCK_STOPPED (Seq #1774 ) recieveObject
+150909 220624.157|INFO|Thread-35|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 220624.158|INFO|Thread-35|dumpPacket|    To: SERVER0 @ site 0
+150909 220624.158|INFO|Thread-35|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150909 220624.159|INFO|Thread-35|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR2 @ site 1
+150909 220624.159|INFO|Thread-35|info|handlePacket start Packet[CLOCK_STOPPED] #1774 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 220624.160|INFO|Thread-35|dumpPacket|Packet CLOCK_STOPPED (Seq #1774 ) handlePacket
+150909 220624.160|INFO|Thread-35|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 220624.161|INFO|Thread-35|dumpPacket|    To: SERVER0 @ site 0
+150909 220624.161|INFO|Thread-35|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+150909 220624.161|INFO|Thread-35|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR2 @ site 1
+150909 220624.163|INFO|Thread-35|contestStopped|debug ContestTime site 1 STOPPED 2:00:07
+150909 220624.164|INFO|Thread-35|info|Clock for site 1 stopped by ADMINISTRATOR2 @ site 1 elapsed 2:00:07
+150909 220624.165|INFO|Thread-35|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #1774 SERVER0 @ site 1 -> SERVER0 @ site 0
+150909 221212.228|INFO|Thread-36|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1801 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 221212.229|INFO|Thread-36|dumpPacket|Packet RUN_JUDGEMENT (Seq #1801 ) recieveObject
+150909 221212.230|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 221212.230|INFO|Thread-36|dumpPacket|    To: TEAM36 @ site 1
+150909 221212.231|INFO|Thread-36|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150909 221212.231|INFO|Thread-36|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR3 @ site 1 judgement No - Run-time Error--1914789495567731324 id JudgementRecord-3371727452291220642
+150909 221212.232|INFO|Thread-36|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 138 JUDGED6993099 ms from TEAM36 @ site 1 id Run-1435241350496999951
+150909 221212.232|INFO|Thread-36|info|handlePacket start Packet[RUN_JUDGEMENT] #1801 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 221212.233|INFO|Thread-36|dumpPacket|Packet RUN_JUDGEMENT (Seq #1801 ) handlePacket
+150909 221212.233|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (libra @ 127.0.1.1) (Contest Id: Default--1818480425291956127)
+150909 221212.234|INFO|Thread-36|dumpPacket|    To: TEAM36 @ site 1
+150909 221212.234|INFO|Thread-36|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+150909 221212.235|INFO|Thread-36|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR3 @ site 1 judgement No - Run-time Error--1914789495567731324 id JudgementRecord-3371727452291220642
+150909 221212.235|INFO|Thread-36|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 138 JUDGED6993099 ms from TEAM36 @ site 1 id Run-1435241350496999951
+150909 221229.393|INFO|Thread-36|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1801 SERVER0 @ site 1 -> TEAM36 @ site 1
+150909 223614.296|INFO|Thread-1|info|connectionDropped: shutting down TEAM36 @ site 1

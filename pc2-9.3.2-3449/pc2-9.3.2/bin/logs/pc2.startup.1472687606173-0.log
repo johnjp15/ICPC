@@ -1,0 +1,9 @@
+160831 195326.186|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin\logs directory.
+160831 195326.188|INFO|main|info|
+160831 195326.190|INFO|main|info|Version 9.3.2 20160615 (Wednesday, June 15th 2016 04:04 UTC) Java ver 1.8.0_101 build 3449 Windows 10 10.0 (x86) 
+160831 195326.191|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin
+160831 195326.200|INFO|main|startLog|Process id is 3144@jjp_rb15fhd
+160831 195326.200|INFO|main|start|Starting ConnectionManager...
+160831 195326.339|INFO|main|start|Started ConnectionManager
+160831 195326.340|SEVERE|main|fatalError|Cannot start PC^2, pc2v9.ini file not found in C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin
+160831 195326.340|INFO|main|fatalError|PC^2 halted

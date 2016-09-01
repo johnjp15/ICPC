@@ -1,0 +1,26 @@
+allowed to bring unlimited printed materials (of any sort, e.g. old tests) resources for the qualifer on Saturday
+
+olsson hall
+
+Programming Challenges - The Programming Contest Training Manual - Skiena, Revilla (pdf)
+	every team has a copy of this during the actual contest
+
+ICPC Resources
+
+
+QUALIFER:
+9 AM qualifier, 5 hours long, 9:00 AM to 2:00 PM
+
+olsson 001 rice 340
+
+internet off
+only intranet
+
+pizza
+-
+
+
+know Linux account and password
+
+ssh labunix01.cs.virginia.edu
+try logging in

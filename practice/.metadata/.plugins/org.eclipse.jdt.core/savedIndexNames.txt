@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\John\Dropbox\UVA\ICPC\practice\.metadata\.plugins\org.eclipse.jdt.core
+1019245808.index

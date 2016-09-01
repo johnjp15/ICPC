@@ -1,0 +1,19 @@
+package icpc1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ProblemB {
+	Scanner sc = new Scanner(System.in);
+	String s;
+	while(sc.hasNextLine()){
+		ArrayList<Integer> reviews = new ArrayList<Integer>();
+		String inputs[] = s.split(" ");
+		int n = Integer.parseInt(inputs[0]);
+		int m = Integer.parseInt(inputs[1]);
+		for (int x = 0; x < n; x++) {
+			s = sc.nextLine();
+			reviews.add()
+		}
+	}
+}
