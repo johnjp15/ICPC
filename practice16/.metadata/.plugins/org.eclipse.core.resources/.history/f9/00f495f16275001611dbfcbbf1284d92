@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ProblemD	{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		String alphabet = "PQWERTYUIOJ#SZK*?F@D!HNM&LXGABCV";
+		
+		int p = sc.nextInt();
+		
+		while(sc.hasNext())
+		{
+			int num - sc.nextInt();
+			String c = sc.next();
+			double d = sc.nextDouble();
+			String s = sc.next();
+			
+			//match C
+			
+			//d
+			for(int exp = 11; exp >= 0; exp--)	{
+				if(d >= Math.pow(2, exp))	{
+					
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+public class ProblemD	{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		String alphabet = "PQWERTYUIOJ#SZK*?F@D!HNM&LXGABCV";
+		
+		int p = sc.nextInt();
+		
+		while(sc.hasNext())
+		{
+			int num - sc.nextInt();
+			String c = sc.next();
+			double d = sc.nextDouble();
+			String s = sc.next();
+			
+			
+			String result = "";
+			//match C
+			String retc = "";
+			int index = alphabet.indexOf(c);
+			for(int exp = 4; exp >= 0; exp--)	{
+				if(index >= Math.pow(2, exp))	{
+					retc += "1";
+				}	else	{
+					retc += "0";
+				}
+			}
+			
+			//d
+			String ret11 = "";
+			for(int exp = 11; exp >= 0; exp--)	{
+				if(d >= Math.pow(2, exp))	{
+					ret11 += "1";
+				}	else	{
+					ret11 += "0";
+				}
+			}
+			
+			result = retc + ret11;
+			if(s.equals("F"))	{
+				result += "0";
+			}	else	{
+				result += "1";
+			}
+			
+			//check sign bit
+			double out = 0;
+			if(Integer.parseInt(result.substring(0, 1)) == 1)	{	//positive
+				out = -1.0;
+			}
+			
+			for(int i = 1; i < result.length(); i++)	{
+				if(Integer.parseInt(result.substring(i, i + 1)) == 1)	{
+					out += Math.pow(0.5, i)
+				}
+			}
+			
+			
+		}
+	}
+
+}

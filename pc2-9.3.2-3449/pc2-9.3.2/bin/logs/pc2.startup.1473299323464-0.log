@@ -1,0 +1,64 @@
+160907 214843.477|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin\logs directory.
+160907 214843.478|INFO|main|info|
+160907 214843.481|INFO|main|info|Version 9.3.2 20160615 (Wednesday, June 15th 2016 04:04 UTC) Java ver 1.8.0_101 build 3449 Windows 10 10.0 (x86) 
+160907 214843.482|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin
+160907 214843.491|INFO|main|startLog|Process id is 95788@jjp_rb15fhd
+160907 214843.491|INFO|main|start|Starting ConnectionManager...
+160907 214843.635|INFO|main|start|Started ConnectionManager
+160907 214843.637|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.3.2-3449/pc2-9.3.2/bin/pc2v9.ini
+160907 214843.637|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+160907 214843.637|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+160907 214843.637|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+160907 214843.708|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=53807]-1096328557819326706)
+160907 214843.770|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=53807]-1096328557819326706 key is com.sun.crypto.provider.DESKey@fffe7b28
+160907 214843.771|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+160907 214843.772|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    0203cc88 6ea832ce 0af0586d 2f8c700e ea6444e8 5941cb9a 853676b8 d42ca54f
+    847245b0 c84583f2 75e3f4ec 4d4d304c 0aea783c 5061cb78 1f7ad6b3 3c8e7527
+    22b4af19 33a8fc21 a663bc53 577f95d0 814c2886 3e6c743e e09401c0 55687bed
+    13fdaf4d d3a4fcf4 ddd83b02 919dae9f 08894f80 b758eb82 febbabf4 4e2f64e1
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+160907 214843.772|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@971bef
+160907 223320.873|INFO|Thread-1|receive|SocketException in receive for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=53807]-1096328557819326706
+|java.net.SocketException: Software caused connection abort: recv failed
+|    at java.net.SocketInputStream.socketRead0 (Unknown Source)
+|    at java.net.SocketInputStream.socketRead (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+160907 223320.874|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Software caused connection abort: recv failed
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+160907 223320.875|INFO|Thread-1|receive|SocketException in receive for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=53807]-1096328557819326706
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+160907 223320.875|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class ProblemB	{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		int p = sc.nextInt();
+		
+		while(sc.hasNext())
+		{
+			int num = sc.nextInt();
+			int n = sc.nextInt();
+			int m = sc.nextInt();
+			
+			long answer = 1 + m * (n-m);
+			
+			
+			String s = sc.next();
+			
+			String repeated = "";
+			for (char ch : s.toCharArray()) {
+				for (int i = 0; i < r; i++) {
+					repeated += ch;
+				}
+			}
+			
+			System.out.println(n + " " + repeated);
+		}
+	}
+
+}
