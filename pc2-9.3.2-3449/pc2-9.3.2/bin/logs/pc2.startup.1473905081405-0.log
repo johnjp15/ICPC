@@ -1,0 +1,30 @@
+160914 220441.419|CONFIG|main|setFileHandlers|Now logging to C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin\logs directory.
+160914 220441.420|INFO|main|info|
+160914 220441.423|INFO|main|info|Version 9.3.2 20160615 (Wednesday, June 15th 2016 04:04 UTC) Java ver 1.8.0_101 build 3449 Windows 10 10.0 (x86) 
+160914 220441.424|INFO|main|startLog|Working directory is C:\Users\John\Dropbox\UVA\ICPC\pc2-9.3.2-3449\pc2-9.3.2\bin
+160914 220441.433|INFO|main|startLog|Process id is 16280@jjp_rb15fhd
+160914 220441.433|INFO|main|start|Starting ConnectionManager...
+160914 220441.592|INFO|main|start|Started ConnectionManager
+160914 220441.593|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/John/Dropbox/UVA/ICPC/pc2-9.3.2-3449/pc2-9.3.2/bin/pc2v9.ini
+160914 220441.593|INFO|main|setClientServerAndPort|setClientServerAndPort libra.cs.virginia.edu parsed as libra.cs.virginia.edu port 50002
+160914 220441.593|INFO|main|info|Contacting server at libra.cs.virginia.edu:50002
+160914 220441.594|INFO|main|connectToMyServer|Connecting to libra.cs.virginia.edu:50002
+160914 220441.665|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=65391]-2622606937697984014)
+160914 220441.720|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=libra.cs.virginia.edu/128.143.136.220,port=50002,localport=65391]-2622606937697984014 key is com.sun.crypto.provider.DESKey@18766
+160914 220441.720|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+160914 220441.721|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    938029e6 b4fc8b71 bad8f41c 344d4500 83b3f5c9 8212e6ac 5a80a0ab f08fecef
+    23aa82bf 271c2b61 ff08f752 ff385c0c aa38fba4 e604dbd8 69358f86 827c1d31
+    863435cb d5f98054 bcaf4bc5 0341ce33 55fbff2b e4e422f6 19448c9c 207e4605
+    55d264e5 a8185c9a 7a2a7a7e 86476a0b 9a48a0f1 b8d5e722 89ebadc4 8a1ce663
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+160914 220441.721|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1ce5999

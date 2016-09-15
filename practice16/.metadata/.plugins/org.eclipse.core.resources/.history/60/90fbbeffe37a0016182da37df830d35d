@@ -1,0 +1,65 @@
+import java.util.*;
+
+public class ProblemE {
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		int NUM_TESTCASES = sc.nextInt();
+		
+		for(int t = 0; t < NUM_TESTCASES; t++)
+		{
+			int NUM_CASES = sc.nextInt();
+			for(int c = 0; c < NUM_CASES; c++)	{
+				int n = sc.nextInt();
+				int m = sc.nextInt();
+				int[][] problem = new int[m][n];
+				
+				for (int x = 0; x < m; x++)
+					for (int y = 0; y < n; y++)
+						problem[x][y] = -1;
+				
+				for (int x = 0; x < m; x++) {
+					String s = sc.nextLine();
+					s = s.replaceAll("\n","");
+					for (String str : s.split(" v ")) {
+						int y = Integer.parseInt(""+str.charAt(str.length()-1));
+						if (str.charAt(0) == '~') {
+							problem[x][y] = 0;
+						} else {
+							problem[x][y] = 1;
+						}
+					}
+				}
+				
+				boolean satisfiable = true;
+				for (int y = 0; y < n; y++) {
+					int truthVal = -1;
+					for (int x = 0; x < m; x++) {
+						if (truthVal == -1) {
+							truthVal = problem[x][y];
+							continue;
+						}
+						if (problem[x][y] != -1 && problem[x][y] != truthVal) {
+							satisfiable = false;
+							break;
+						}
+					}
+					if (!satisfiable) {
+						break;
+					}
+					
+				}
+				
+				if (satisfiable) {
+					System.out.println("satisfiable");
+				} else {
+					System.out.println("unsatisfiable");
+				}
+				
+			}
+		}
+	}
+
+}

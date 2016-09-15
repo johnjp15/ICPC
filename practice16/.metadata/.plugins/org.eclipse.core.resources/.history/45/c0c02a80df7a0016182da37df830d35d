@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ProblemI {
+
+	Scanner sc = new Scanner(System.in);
+	
+	int testcases = sc.nextInt();
+	
+	for(int t = 0; t < testcases; t++)	{
+		
+	}
+}
