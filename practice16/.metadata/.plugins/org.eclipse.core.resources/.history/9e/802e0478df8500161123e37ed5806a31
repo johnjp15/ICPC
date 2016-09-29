@@ -1,0 +1,13 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class ProblemE {
+	Scanner sc = new Scanner(System.in);
+	
+	int p = sc.nextInt();
+	while(sc.hasNext()) {
+		int k = sc.nextInt();
+		String y = sc.next();
+		
+	}
+}

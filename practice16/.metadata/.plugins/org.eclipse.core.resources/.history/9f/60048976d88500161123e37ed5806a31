@@ -1,0 +1,23 @@
+//Nathan
+//No - wrong answer.
+//YES
+
+import java.util.*;
+
+public class ProblemA {
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		int p = sc.nextInt();
+		
+		while(sc.hasNext())
+		{
+			int k = sc.nextInt();
+			int n = sc.nextInt();
+			
+		}
+	}
+
+}

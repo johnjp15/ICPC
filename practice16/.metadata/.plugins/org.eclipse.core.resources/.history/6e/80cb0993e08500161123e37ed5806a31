@@ -1,0 +1,29 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class ProblemE {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int numSets = sc.nextInt();
+		for (int set = 0; set < numSets; set++) {
+			int k = sc.nextInt();
+			String[] frac = sc.next().split("/");
+			int p = Integer.parseInt(frac[0]);
+			int q = Integer.parseInt(frac[1]);
+			String seq = "1";
+			while (p != 1 || q != 1) {
+				if (p > q) {
+					// right child
+					p = p-q;
+					seq += "1";
+				} else {
+					// left child
+					q = q-p;
+					seq += "0";
+				}
+			}
+			System.out.println(k + " " + Integer.parseInt(seq,2));
+		}	
+	}
+}

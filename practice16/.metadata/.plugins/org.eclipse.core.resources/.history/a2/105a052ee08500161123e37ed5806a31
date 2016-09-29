@@ -1,0 +1,15 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class ProblemE {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int p = sc.nextInt();
+		for (int set = 0; set < p; set++) {
+			int k = sc.nextInt();
+			String frac = sc.next();
+			
+		}	
+	}
+}
